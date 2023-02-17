@@ -1,7 +1,10 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -36,7 +39,7 @@ body {
 .container .text {
     font-size: 18px;;
     font-weight: 600;
-    /* margin: 10px; */
+    margin: 10px;
 }
 
 .container input {
@@ -73,19 +76,18 @@ body {
     display: none;
     position: absolute;
     top: 50%;
-    right: 30%;
+    right: 20%;
     padding: 5px 10px;
     background-color: transparent;
     color: #1fff09;
     border: solid 1px #2fff12;
     border-radius: 20px;
-    transform: translateY(-20px) translateX(30px);
-    transition: 2s ease-in-out;
-    
 }
 
 .alert.copied {
-    display: block;    
+    display: inline-block;    
+    transform: translateY(-25px) translateX(30px);
+    transition: 2s ease-in-out;    
 }
 
 
